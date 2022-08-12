@@ -28,16 +28,6 @@ a {
     color: inherit;
 }
 
-a.btn {
-    background-color: #af599e;
-    color: #fbfbfb;
-    padding: 12px 20px;/*  */
-    border-radius: 50px;
-    font-size: 20px;
-    /* se cambió el display para que respete paddings y margins */
-    display: inline-block;
-}
-
 h1 {
     font-size: 36px;
     text-align: center;
@@ -51,6 +41,7 @@ p {
     margin: 16px 0;
 }
 
+/* Para prevenir que las imágenes "rompan" la página */
 img {
     max-width: 100%;
 }
@@ -126,6 +117,14 @@ article.presentacion {
     text-align: center;
 }
 
+a.btn {
+    background-color: #af599e;
+    color: #fbfbfb;
+    padding: 12px 20px;/*  */
+    border-radius: 50px;
+    font-size: 20px;
+    display: inline-block;
+}
 
 /* Sección Contacto */
 section#contacto p {
